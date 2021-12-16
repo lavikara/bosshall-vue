@@ -1,30 +1,24 @@
 <template>
   <div class="signUp">
-      <nav class="nav">
-        <ul>
-          <li>SIGN IN</li>
-          <button>SIGN UP</button>
-        </ul>
-      </nav>
-      <div class="signUp__main">
-        <h3>Get started Now</h3>
-        <p class="para">Signup to see moments from your favorite football,movie review shows as they go live on radio</p>
-        <form class="form">
-          <div class="form__box">
-            <input placeholder="todimoon@gmail.com" type="text">
-            <img src="../assets/Vector.png" alt="">
-          </div>
-          <div class="form__box">
-            <input placeholder="************" type="text">
-            <!-- <img src="../assets/Vector.png" alt=""> -->
-          </div>
-          <div class="form__select">
-            <input type="checkbox">
-            <p>I accept <span >terms and conditions</span></p>
-          </div>
-          <button class="form__button">Sign up</button>
-        </form>
-      </div>
+    <div class="signUp__main">
+      <h3>Get started Now</h3>
+      <p class="para">Signup to see moments from your favorite football,movie review shows as they go live on radio</p>
+      <form class="form">
+        <div class="form__box">
+          <input placeholder="todimoon@gmail.com" type="text">
+          <img src="../../assets/Vector.png" alt="">
+        </div>
+        <div class="form__box">
+          <input placeholder="************" type="password">
+          <!-- <img src="../assets/Vector.png" alt=""> -->
+        </div>
+        <div class="form__select">
+          <input type="checkbox">
+          <p>I accept <span >terms and conditions</span></p>
+        </div>
+        <button class="form__button">Sign up</button>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -38,45 +32,12 @@ export default {
 
 .signUp{
   width: 100%;
-  background: #FFFFFF;
-  height: 100%;
+  background: #ffffff;
+  height: 92vh;
 
 }
 
-.nav{
-  padding-right: 100px;
-  justify-content: flex-end;
-  display: flex;
-  align-items: center;
-  height: 80px;
-}
 
-.nav ul{
-  list-style: none;  
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav ul li{
-  color: #EF5350;
-  font-size: 14px;
-
-
-  cursor: pointer;
-}
-
-
-.nav ul button{
-  width: 93px;
-  height: 36px;
-  border: 1px solid #EF5350;
-  font-size: 14px;
-  background: none;
-  color: #EF5350;
-  font-size: 14px;
-}
 
 .signUp__main{
   padding-top: 100px;
@@ -89,7 +50,7 @@ export default {
 .signUp__main h3{
   text-align: center;
   color: #216583;
-   font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px
 
 ;

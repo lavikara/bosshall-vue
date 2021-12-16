@@ -1,31 +1,35 @@
 <template>
-  <div>
-      <div class="wrap">
-          <div class="wrap__left">
-              <LandingLeft />
-          </div>
-          <div class="wrap__right">
-              <SignUpForm />
-          </div>
-      </div>
-  </div>
+    <div>
+        <div class="wrap">
+            <div class="wrap__left">
+                <LandingLeft />
+            </div>
+            <div class="wrap__right">
+                <LandingRightNav />
+                <router-view></router-view>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-import Nav from '../components/nav.vue'
+
 import LandingLeft from '../components/landing_left.vue'
-import SignUpForm from '../components/sign_up_comp.vue'
+import LandingRightNav from '../components/navigations/right_home_nav.vue'
 
 
 
 export default {
+
     components:{
-        Nav,
         LandingLeft,
-        SignUpForm
+        LandingRightNav
+        // SignUpForm
     },
     data(){
-        return{}
+        return {
+
+        }
            
     }
 }
@@ -53,6 +57,8 @@ export default {
 
 .wrap__right{
     width: 40%;
+   
+  
 }
 
 

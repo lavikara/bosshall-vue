@@ -1,16 +1,16 @@
 <template>
-  <nav class="nav">
-      <div class="logoLinks">
-          <div class="logo">
-              <img src="../assets/logo.png" alt="">
-          </div>
-          <ul>
+    <nav class="nav">
+        <div class="logoLinks">
+            <div class="logo">
+              <img src="../../assets/logo.png" alt="">
+            </div>
+            <ul>
               <li>Home</li>
               <li>About</li>
               <li>FAQ</li>
-          </ul>
-      </div>
-  </nav>
+            </ul>
+        </div>
+    </nav>
 </template>
 
 <script scoped>

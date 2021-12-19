@@ -63,14 +63,15 @@
                 <Finished text="Save" />
             </div>
         </div>
-        
+        <ConfirmModal />
     </div>
 </template>
 
 <script>
 import Finished from '../../components/buttons/confirmation.vue'
+import ConfirmModal from '../../components/modals/comfrimation_modal.vue'
 export default {
-    components:{ Finished }
+    components:{ Finished, ConfirmModal }
 }
 </script>
 

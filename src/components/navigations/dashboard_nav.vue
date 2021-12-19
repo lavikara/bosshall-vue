@@ -6,8 +6,8 @@
         </div>
         <nav>
             <ul class="nav__ul1">
-                <li>Home</li>
-                <li>My channels</li>
+                <router-link to="/dashboard">Home</router-link>
+                <router-link to="/channel">My channel</router-link>
                 <li>My Broadcast</li>
                 <li>Ads</li>
             </ul>
@@ -82,10 +82,12 @@ export default {
     
 }
 
-.nav__ul1 li{
+.nav__ul1 li,a{
     margin-right: 30px;
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .nav__ul2 li{

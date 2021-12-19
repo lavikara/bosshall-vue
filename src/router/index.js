@@ -37,6 +37,16 @@ const routes = [
         path : "",
         name : "Profile",
         component : () => import("@/views/dashboard/profile_setup.vue")
+      },
+      {
+        path : "/channel",
+        name : "Channel",
+        component : () => import("@/views/dashboard/channel")
+      },
+      {
+        path : "/create_channel",
+        name : "CreateChannel",
+        component : () => import("@/views/dashboard/create_channel.vue")
       }
     ]
   }

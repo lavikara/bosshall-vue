@@ -1,7 +1,7 @@
 <template>
     <form style="padding-bottom:50px">
         <div class="finish">
-            <button>Finish</button>
+            <Finished :text="Finished" />
         </div>
         <div class="body">
             <section class="banner">
@@ -66,8 +66,11 @@
 </template>
 
 <script>
+import Finished from '../../components/buttons/confirmation.vue'
 export default {
-
+    components:{
+        Finished
+    }
 }
 </script>
 
